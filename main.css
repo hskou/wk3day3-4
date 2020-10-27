@@ -1,0 +1,100 @@
+html, body, a, p, h1, h5, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    color: #ffffff;
+}
+
+body {
+    background: #000000;
+}
+
+p {
+    font-size: 18px;
+    padding: 20px;
+    padding-left: 30px;
+}
+a {
+    text-decoration: none;
+}
+h1 {
+    font-size: 50px;
+    border-bottom: 2px solid #ffffff;
+}
+h2 {
+    font-size: 30px;
+    margin: 10px;
+}
+h5 {
+    font-size: 25px;
+    padding: 30px 30px 20px;
+}
+
+.headertxt {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.headerimg {
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("images/chopping-board.jpg") no-repeat center;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+
+.nav {
+    height: 50px;
+    margin: 0 10%;
+    border-bottom: 2px solid #ffffff;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav a {
+    padding: 0 10px;
+    align-self: flex-end;
+}
+.nav :first-child {
+    flex-grow: 2;
+    padding-left: 0;
+}
+.nav :last-child {
+    padding-right: 0;
+}
+.title {
+    text-align: center;
+    margin-top: 7em;
+}
+.title h1 {
+    display: inline-block;
+    padding: 0 0.60em 0.35em;
+    font-size: 80px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.row:nth-of-type(2) {
+    background-color: #000000;
+}
+.row:nth-of-type(3) {
+    background-color: #0e0e0e;
+}
+.row:nth-of-type(4) {
+    background-color: #1a1a1a;
+}
+.cardtxt {
+    width: 60%;
+    padding: 20px;
+}
+.cardimg {
+    max-width: 40%;
+}
+.cardimg img {
+    max-width: 100%;
+}
